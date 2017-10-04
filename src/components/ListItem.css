@@ -1,0 +1,44 @@
+.list-item__main-container {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item__name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 40px;
+  padding: 16px;
+}
+
+.list-item__name-text {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+}
+
+.list-item__stats-container {
+  border-top: 4px solid #EBEBEB;
+  border-left: 10px solid #EBEBEB;
+  padding-left: 10px;
+}
+
+.list-item__stat-container {
+  display: flex;
+  min-height: 40px;
+  border-bottom: 1px solid #EBEBEB;
+  width: 100%;
+  align-items: center;
+}
+
+.list-item__stat-name-text {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.list-item__stat-value-text {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 16px;
+}

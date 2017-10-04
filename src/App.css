@@ -1,0 +1,12 @@
+.app__main-container {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  color: #28272B;
+}
+
+.app__content-container {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  height: calc(100% - 128px);
+}

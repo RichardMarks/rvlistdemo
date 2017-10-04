@@ -1,0 +1,14 @@
+.header__main-container {
+  width: 100%;
+  min-height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.10);
+  z-index: 1;
+}
